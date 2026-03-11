@@ -8,15 +8,15 @@
   <a-entity position ="0 250 0"lght= "type:directional; intensity: 0.5; castShadow: true;
     shadowCameraBottom: -50; shadowCameraToy: 500; shadowCameraLeft: -500; shadowCameraRight: 500:>
     </a-entity>
-    <a-light type=:"ambient" intensity=:"0.25" ></a-entity>a-light>
-  <a-plane color="#2a1c0e" height="1000" width="2000" rotation="-90 0 0" metalness="0" shadow></a-plane>a-plane>
+    <a-light type=:"ambient" intensity=:"0.25" ></a-light>
+  <a-plane color="#2a1c0e" height="1000" width="2000" rotation="-90 0 0" metalness="0" shadow></a-plane>
 </a-scene>
 </body>
 </a-assets>
-  <a-assets-item id="true" src="tree.gltf"></a-assets-item>
-  <a-assets-item id=""bird" src="bird.gltf"></a-assets-item>
-  <a-assets-item id="bee" src="bee.gltf"></a-assets-item>
-  <a-assets-item id="witch" src="witch.glb"></a-assets-item>
+  <a-asset-item id="true" src="tree.gltf"></a-asset-item>
+  <a-asset-item id="bird" src="bird.gltf"></a-asset-item>
+  <a-asset-item id="bee" src="bee.gltf"></a-asset-item>
+  <a-asset-item id="witch" src="witch.glb"></a-asset-item>
   <audio id="hawk" src="Hack Call 2x-SoundBible.com-169779638.mp3"></audio>
   <audio id="buzz" src="Bee.SoundBible.com-914644763.mp3"></audio>
 </a-assets>
@@ -24,8 +24,8 @@
 <a-entity gltf-model="#bird" scale="5 5 5" shadow="receive: false" position="50 25 -50" rotation="0 180 0">
 </a-entity>
 <script>
-var=scene =document.getElenetById's1');
-for (var i=0; i<500 i++) {
+var scene=document.getElenetById('s1');
+for (var i=0; i<500; i++) {
   var x =Math.random() *800 - 400;
   var z =Math.random() *800 - 400;
   var s =Math.random() *15 + 5;
