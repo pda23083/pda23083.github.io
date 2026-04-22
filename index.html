@@ -6,7 +6,7 @@
   </script>
 </head>
 <body>
-  <a-scene background="color : cadeblue">
+  <a-scene id="s1" background="color : cadeblue" physics>
   <a-plane height="100" width="100" rotation="-90,0,0></a-plane>"
   <a-box dynamic-body position = "1 5 -6" color="firebrick" scale="2 1 1"></a-box>  
   <a-box dynamic-body position = "2 3 -6" color="firebrick" scale="2 1 1"></a-box> 
@@ -15,6 +15,9 @@
   <a-sphere static-body position="0 -0.25 -1" scale=0.25 0.25 0.25" color="black"></a-sphere>
   </a-entity>
  </a-scene>
+  <script>
+    var scene1=document.getElementById('s1');
+    for var=(i=-5; i<=3,i++) {
  </a-body>
 </html>
     <script>
